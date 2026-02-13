@@ -5,24 +5,43 @@ Porject documents in pdf format.
 To accomplish this, we have to complete all the activities listed below,
 
 ?   Data Collection & Extraction from Database 
+
 o   Collect the dataset 
+
 o   Connect data with Tableau
+
 ?    Data Preparation
-o   Prepare the Data for Visualization 
-?   	Data Visualizations 
+
+o   Prepare the Data for Visualization
+
+?   	Data Visualizations
+
 o   No of Unique Visualizations 
+
 ?   	Dashboard
+
 o   Responsive and Design of Dashboard 
+
 ?    Story 
+
 o   No of Scenes of Story 
+
 ?    Performance Testing
+
 o   Utilization of Data Filters 
+
 o   No of Calculation Fields 
+
 o   No of Visualizations/ Graphs 
+
 ?   Web Integration
+
 o   Dashboard and Story embed with UI With Flask
+
 ?    Project Demonstration & Documentation 
+
 o   Record explanation Video for project end-to-end solution
+
 o   Project Documentation-Step step-by-step project development procedure
 
 **Collect the dataset**
