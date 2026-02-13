@@ -4,45 +4,7 @@ Porject documents in pdf format.
 
 To accomplish this, we have to complete all the activities listed below,
 
-?   Data Collection & Extraction from Database
-
-o   Collect the dataset
-
-o   Connect data with Tableau
-
-?    Data Preparation
-
-o   Prepare the Data for Visualization
-
-?   	Data Visualizations
-
-o   No of Unique Visualizations
-
-?   	Dashboard
-
-o   Responsive and Design of Dashboard
-
-?    Story
-
-o   No of Scenes of Story
-
-?    Performance Testing
-
-o   Utilization of Data Filters
-
-o   No of Calculation Fields
-
-o   No of Visualizations/ Graphs
-
-?   Web Integration
-
-o   Dashboard and Story embed with UI With Flask
-
-?    Project Demonstration & Documentation
-
-o   Record explanation Video for project end-to-end solution
-
-o   Project Documentation-Step step-by-step project development procedure
+?   Data Collection & Extraction from Database o   Collect the dataset o   Connect data with Tableau ?    Data Preparation o   Prepare the Data for Visualization ?   	Data Visualizations o   No of Unique Visualizations ?   	Dashboard o   Responsive and Design of Dashboard ?    Story o   No of Scenes of Story ?    Performance Testing o   Utilization of Data Filters o   No of Calculation Fields o   No of Visualizations/ Graphs ?   Web Integration o   Dashboard and Story embed with UI With Flask ?    Project Demonstration & Documentation o   Record explanation Video for project end-to-end solution o   Project Documentation-Step step-by-step project development procedure
 
 **Collect the dataset**
 
@@ -207,3 +169,40 @@ Sales Volume
 ? Promotion of Product Category on Price and Sales Volume.
 ? Product Category vs Price 
 ? Avg Sales Volume by Product Category by Product Position.
+
+**Web integration**
+
+Publishing helps us to track and monitor key performance metrics, to communicate results and progress. help a publisher stay informed, make better decisions, and communicate their performance to others.
+
+The above gives information on how to save and publish the dashboard to the tableau public.
+
+Click on  “File” which is displayed on the left top corner of the dashboard sheet.
+
+Now click on the Save as Tableau Public As option and that will redirect to your sign-in account as shown below.
+
+Now sign in to your Tableau public account and there your visualization, dashboard, and story are published. In this way, we can publish your dashboard and story into your tableau public.
+
+After signing into your public account the workbook is displayed. Now click on “settings” and then it will display to show sheets are disabled so enable it so, that all your sheets are visible.
+
+Now click on the dashboard sheet in the top right corner we have an option called share click on it then it will show like the above screenshot. Then, copy the embedded code and place the copied embedded code into your bootstrap template as shown in the reference video below.
+
+After copying the embedded code of the dashboard from Tableau Public and pasting it in the Bootstrap template then use the same procedure for the story also to copy the embedded code from the Tableau Public and paste it into the Bootstrap template.
+
+**Dashboard and Story embed with UI With Flask**
+
+Explanation Video Link:
+
+https://drive.google.com/file/d/1-ImErECS0qUz3dOHx901QKa5HXGTGkdl/view?usp=drive_link
+
+**DASHBOARD**
+
+STORY SCENE-1
+
+STORY SCENE-2 
+
+STORY SCENE-3
+
+
+
+   
+
