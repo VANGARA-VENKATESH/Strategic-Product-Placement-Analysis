@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Strategic Product Placement</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: url("{{ url_for('static', filename='about_bg.jpg') }}") no-repeat center center/cover;
+        }
+
+        /* Dark Overlay */
+        .overlay {
+            background: rgba(0, 0, 0, 0.75);
+            min-height: 100vh;
+            padding: 120px 60px;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            padding: 15px 40px;
+            text-align: right;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            color: gold;
+        }
+
+        .get-started {
+            border: 2px solid gold;
+            padding: 6px 14px;
+            border-radius: 5px;
+            color: gold !important;
+        }
+
+        .get-started:hover {
+            background: gold;
+            color: black !important;
+        }
+
+        h1 {
+            color: gold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .content {
+            max-width: 900px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/story">Story</a>
+    <a href="/contact">Contact</a>
+    <a href="/getstarted" class="get-started">Get Started</a>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<div class="overlay">
+    <div class="content">
+        <h1>About Our Project</h1>
+
+        <p>
+            The Strategic Product Placement Analysis project focuses on understanding how product positioning,
+            pricing strategies, promotions, and customer demographics impact overall sales performance.
+        </p>
+
+        <p>
+            Business owners can use this system to identify high-performing product categories,
+            optimize shelf placements, and implement effective promotional strategies.
+            By analyzing real-time sales trends, companies can maximize profit and reduce unnecessary inventory costs.
+        </p>
+
+        <p>
+            Our Tableau dashboards provide interactive insights that help decision-makers
+            track performance metrics, compare competitor pricing, and understand customer behavior patterns.
+        </p>
+
+        <p>
+            This data-driven approach enables retailers to make smarter decisions,
+            increase customer satisfaction, and ultimately boost revenue and long-term profitability.
+        </p>
+
+    </div>
+</div>
+
+</body>
+</html>
