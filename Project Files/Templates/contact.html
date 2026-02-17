@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body {
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:black;
+            color:white;
+        }
+        .container {
+            display:flex;
+            height:100vh;
+            padding-top:100px;
+        }
+        .left, .right {
+            width:50%;
+            padding:50px;
+        }
+        .left {
+            background:#111;
+        }
+        input, textarea {
+            width:100%;
+            padding:10px;
+            margin:10px 0;
+            border:none;
+            border-radius:5px;
+        }
+        button {
+            background:gold;
+            border:none;
+            padding:10px 20px;
+            font-weight:bold;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== NAVBAR START ===== -->
+<div style="position:fixed; top:0; right:0; width:100%; padding:15px 40px; z-index:1000; text-align:right; background:rgba(0,0,0,0.6);">
+    <a href="/" style="color:white; margin:10px; text-decoration:none;">Home</a>
+    <a href="/about" style="color:white; margin:10px; text-decoration:none;">About</a>
+    <a href="/dashboard" style="color:white; margin:10px; text-decoration:none;">Dashboard</a>
+    <a href="/story" style="color:white; margin:10px; text-decoration:none;">Story</a>
+    <a href="/contact" style="color:white; margin:10px; text-decoration:none;">Contact</a>
+    <a href="/getstarted" style="border:2px solid gold; padding:6px 14px; color:gold; text-decoration:none; border-radius:5px;">Get Started</a>
+</div>
+<!-- ===== NAVBAR END ===== -->
+
+
+<div class="container">
+    <div class="left">
+        <h2>Contact Information</h2>
+        <p><b>Email:</b> vangaravenkatesh8@gmail.com</p>
+        <p><b>Phone:</b> +91 9391712925</p>
+        <p><b>Location:</b> Guntur</p>
+    </div>
+
+    <div class="right">
+        <h2>Send Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Mobile Number" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="5" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
