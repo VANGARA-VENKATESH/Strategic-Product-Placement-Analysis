@@ -1,5 +1,3 @@
-# Strategic-Product-Placement-Analysis
-
 # Strategic Product Placement Analysis
 
 This repository contains the code and data used to analyze sales impact based on product placement using Python and Tableau.
