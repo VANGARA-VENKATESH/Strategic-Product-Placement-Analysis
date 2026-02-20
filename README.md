@@ -1,4 +1,25 @@
 # Strategic Product Placement Analysis
+
+This repository contains the code and data used to analyze sales impact based on product placement using Python and Tableau.
+
+## Features
+- Data preprocessing
+- Sales trend analysis
+- Visualization scripts
+- Tableau Dashboard files
+
+## Tech Stack
+Python | Pandas | Matplotlib | Seaborn | Tableau
+
+## Files
+- data_analysis.ipynb
+- sales_visuals.py
+- README.md
+
+## How to Run
+1. Download dataset
+2. Run Jupyter Notebook
+3. View visual insights
    
 Unveiling Sales Impact with Tableau Visualization.
 This project aims to investigate the relationship between product positioning, sales performance, and consumer behavior. Using Tableau, we will analyze data to uncover insights into how different positioning strategies impact sales and consumer preferences. By visualizing the data, we aim to provide actionable recommendations to optimize product positioning strategies and drive revenue growth.
